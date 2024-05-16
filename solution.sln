@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolhaRostoFunctionApp", "FolhaRostoFunctionApp\FolhaRostoFunctionApp.csproj", "{265A567E-7B5A-4C47-AE9F-EE55D5CEF542}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{265A567E-7B5A-4C47-AE9F-EE55D5CEF542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265A567E-7B5A-4C47-AE9F-EE55D5CEF542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265A567E-7B5A-4C47-AE9F-EE55D5CEF542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265A567E-7B5A-4C47-AE9F-EE55D5CEF542}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3650B98-4BBC-4167-BBCE-DDEB992D4CB9}
+	EndGlobalSection
+EndGlobal
