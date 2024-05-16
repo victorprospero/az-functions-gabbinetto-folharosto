@@ -1,5 +1,3 @@
-using System;
-using System.IO;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 
@@ -15,9 +13,13 @@ namespace FolhaRostoFunctionApp
         }
 
         [Function(nameof(SendFileNameToQueue))]
-        public void Run([BlobTrigger("folharosto-produto-preco-update/{name}", Connection = "sa-gabbinetto")] string myBlob, string name)
+        public ProdutoPrecoUpdateFileQueue Run([BlobTrigger("folharosto-produto-preco-update/{name}", Connection = "sa-gabbinetto")] string myBlob, string name)
         {
             _logger.LogInformation(name);
+            return new ProdutoPrecoUpdateFileQueue()
+            {
+                OutputEvent = name
+            };
         }
     }
 }
